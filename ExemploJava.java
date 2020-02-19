@@ -3,13 +3,13 @@ package aula1;
 import java.util.Scanner;
 
 public class ExemploJava {
-	// Programa para calcular a ·rea de um cÌrculo.
+	// Programa para calcular a √°rea de um c√≠rculo.
 	public static void main(String[] args) {
-        double raio;
-        double area;
-        final double pi = 3.14;
+        double raio; // Vari√°vel de entrada
+        double area; // Vari√°vel de entrada
+        final double pi = 3.14; // Constante
 
-        System.out.print("Informe o raio do cÌrculo: ");
+        System.out.print("Informe o raio do c√≠rculo: ");
 
         Scanner r = new Scanner(System.in);
         raio = r.nextDouble();
@@ -17,6 +17,6 @@ public class ExemploJava {
 
         area = pi * Math.pow(raio, 2);
 
-        System.out.println("A ·rea do cÌrculo È: " + area);
+        System.out.println("A √°rea do c√≠rculo √©: " + area);
 	}
 }
